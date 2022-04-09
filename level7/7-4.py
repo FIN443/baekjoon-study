@@ -20,5 +20,5 @@ print(math.ceil((V - A) / (A - B)) + 1)
 4 2 / 6 4 / 8 6 / 10 8 / 12 10 / 14
 
 
-(V-A / A-B).ceil   + 1 
+(V-A / A-B).ceil   + 1
 """
