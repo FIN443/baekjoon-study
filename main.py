@@ -1,6 +1,9 @@
-def compact(lst):
-    return list(filter(None, lst))
+itr = [1, 2, 3]
 
 
-lst = [0, 1, False, 2, "", 3, "a", "s", 34]
-print(compact(lst))
+def for_each_right(itr, fn):
+    for i in itr[::-1]:
+        fn(i)
+
+
+for_each_right(itr, print)
