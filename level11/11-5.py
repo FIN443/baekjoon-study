@@ -8,6 +8,6 @@ for i in lst:
     result += str(i)
 print(result)
 
-""" 개쩌는 답안
+""" 한줄 답안
 [print(x, end="") for x in sorted(list(input()), reverse=True)]
 """

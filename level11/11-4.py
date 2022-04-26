@@ -8,7 +8,6 @@ for _ in range(T):
 # print("---")
 lst = sorted(lst)
 lst_c = Counter(lst).most_common()
-# lst_c = sorted(Counter(lst).items(), key=lambda x: x[0])
 # 산술평균
 print(int(round(sum(lst) / T, 0)))
 # 중앙값
