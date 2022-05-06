@@ -14,3 +14,4 @@ for _ in range(T):
         result = result * (counter[key] + 1)
     results.append(result - 1)
 print(*results, sep="\n")
+# (a + 1)(b + 1)(c + 1) - 1 = (a + b + c) + (ab + bc + ca) + abc
