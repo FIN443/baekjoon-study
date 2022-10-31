@@ -4,7 +4,7 @@ T = int(input())
 
 def solution(lst, n):
     if len(lst) == n:
-        operations.append(lst[:])
+        operations.append(lst[:])  # list copy
         return
 
     lst.append(" ")
@@ -23,6 +23,7 @@ def solution(lst, n):
 for _ in range(T):
     N = int(input())
     operations = []
+    # combinations에서 [' ', '+', '-']는 3개보다 많이 생성못함
     solution([], N - 1)
 
     for oper in operations:
